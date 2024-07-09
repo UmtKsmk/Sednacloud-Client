@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { BaseComponent } from '../../../base/base.component';
 import { NgxSpinnerService } from 'ngx-spinner';
+import { CustomToastrService } from '../../../services/common/custom-toastr.service';
 
 @Component({
   selector: 'app-hotels',
@@ -13,5 +14,5 @@ export class HotelsComponent extends BaseComponent {
   }
 
 
-  
+
 }

@@ -23,12 +23,14 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AdminModule } from './admin/admin.module';
 import { UiModule } from './ui/ui.module';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
+    ToastrModule.forRoot(),
     BrowserModule,
     AppRoutingModule,
     NgxSpinnerModule,
